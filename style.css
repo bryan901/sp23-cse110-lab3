@@ -1,0 +1,105 @@
+/* css stylesheet for index.html */ 
+
+h1 {
+    background-color: lightcyan;
+    color: darkblue
+}
+
+h2 {
+    color: rgb(0,255,0)
+}
+
+h3{
+    color: #AACA
+}
+
+fieldset{
+    font-size: 1em;
+    display: grid;
+}
+
+legend {
+    font-size: 1.5em;
+    margin-bottom: 0.5cm;
+    padding-left: 1.5in;
+    padding-right: 1.5in;
+}
+
+button {
+    font-size: 2em;
+    margin: 0.75cm 6in 0.75cm 6in;
+    padding: 0.5cm 0.5cm 0.5cm 0.5cm
+}
+
+button:hover {
+    color: blue
+}
+
+input:active {
+    color: red
+}
+
+#media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+#newbusiness {
+    border-style: dotted;
+    margin-bottom: 0.2cm;
+    border-radius: 1cm;
+    max-width: 15cm;
+    display: grid;
+    justify-content:  center;
+    align-items: center;
+    justify-self:  center;
+}
+
+#unfbusiness {
+    border-style: dashed;
+    border-color: blueviolet;
+    margin-bottom: 0.2cm;
+    height: 5cm;
+    width: 6cm;
+}
+
+#attendance {
+    border-style: groove;
+    border-color: lightgreen;
+    margin-bottom: 0.2cm;
+    border-width: 0.2cm;
+    min-width: none;
+    position: relative;
+}
+
+.disclaimer {
+    text-decoration: dotted!important;
+}
+
+#intro {
+    text-align: center;
+    position: static; 
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@font-face{
+    font-family: Bruno;
+    src: url('/Users/bryan/Downloads/Bruno_Ace_SC/BrunoAceSC-Regular.ttf');
+}
+    
+p {
+    font-family: Bruno;
+}
+    
+
+
+
+
