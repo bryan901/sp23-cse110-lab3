@@ -95,8 +95,37 @@ input:active {
     src: url('/Users/bryan/Downloads/Bruno_Ace_SC/BrunoAceSC-Regular.ttf');
 }
     
-p {
+p,h1 {
     font-family: Bruno;
+}
+
+*{
+    color: grey;
+}
+
+a[href = "#intro"]{
+    color: saddlebrown;
+}
+
+header h2{
+    color: pink;
+}
+
+header > nav{
+    background-color: yellowgreen;
+}
+
+img + audio {
+    width: 400px;
+    height: 600px;
+}
+
+p ~ details {
+    background-color: crimson;
+}
+
+p.additionalinfo {
+    background-color: darkslateblue;
 }
     
 
